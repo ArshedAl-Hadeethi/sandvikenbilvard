@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Tjänster | Sandviken bilvård</title>
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <!-- Start landningssida -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <nav>
+        <input id="nav-toggle" type="checkbox" />
+        <h2 class="main-logo">
+          <a href="index.html">
+            <img src="imgs/icons/logo.png" style="width: 25px; height: 25px" alt="logo"/>
+            <span>Sandviken<strong>bilvård</strong></span>
+          </a>
+        </h2>
+        <ul class="links">
+          <li><a href="index.html">Hem</a></li>
+          <li><a href="tjanster.html">Tjänster</a></li>
+          <li><a href="kontakt.html">Kontakta oss</a></li>
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Log In</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </label>
+      </nav>
+      <div class="introduction-text">
+        <div>
+          <h1 class="main-logo">Sandviken<span>bilvård</span></h1>
+          <p class="lead">Tjänster om allt inom bilvård</p>
+          <p class="mitt">
+            Här kan du boka tid online. Alla priser gäller för personbilar,
+             för större bilar tillkommer 20% exstra. Observera att din bokade tid är 
+             en ungefärlig cirkatid. Alla väntetider är också ungefärliga
+              cirkatider, fördröjning kan förekomma!
+          </p>
+          <form style="display: inline" action="#boka" method="get">
+            <button>BOKA TID</button>
+          </form>          
+        </div>
+      </div>
+    </div>
+
+    <!-- Slut landningssida -->
+
+    <!-- Start Tjänster -->
+    <div class="feat">
+      <div class="container">
+        <div class="section-head">
+          <p class="lines">TJÄNSTER</p>
+        </div>
+        <section class="items">
+          <div class="item">
+            <span class="icon">
+              <img src="imgs/icons/bil.png" alt="Bilvård"
+            /></span>
+            <h4>BILVÅRD</h4>
+            <p>
+              Vi utför allt inom bilvård. Rekonditionering, tvätt, polering, vaxning och
+               lackkonservering. Vi bjuder dig på en gratistvätt av din bil. Du betalar
+                för fem tvättar och får din sjätte tvätt gratis (Utvändig tvätt).
+            </p>
+          </div>
+          <div class="item">
+            <span class="icon"><img src="imgs/icons/reperation.png" alt="bilmekanik" /></span>
+            <h4>Bilmekanik</h4>
+            <p>
+              Vi hjälper dig med allt från service och reparation till enklare
+               saker som däckbyten och glödlampsbyten. Hos oss får du alltid 3
+                års garanti på reservdelarna och 1 års garanti på det utförda arbetet.
+            </p>
+          </div>
+          <div class="item">
+            <span class="icon"> <img src="imgs/icons/oljebyte.png" alt="bilservice" /></span>
+            <h4>BILSERVIVE</h4>
+            <p>
+              När du servar din bil hos oss ingår ett års assistansförsäkring. Det innebär 
+              att vi hjälper dig om din bil plötsligt stannar eller vägrar starta. Du får
+               även hjälp vid bensinstopp eller punktering.
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- start statistik -->
+    <div class="stats service-page text-center">
+      <div class="container">
+        <div class="all-stats">
+          <div class="stat-box">
+            <p>Nöjda kunder</p>
+            <div class="state-info">
+              <i class="fas fa-user fa-fw"></i>
+              <span>99%</span>
+            </div>
+          </div>
+          <div class="stat-box">
+            <p>Biltvätt denna månad</p>
+            <div class="state-info">
+              <i class="fas fa-user fa-fw"></i>
+              <span>220</span>
+            </div>
+          </div>
+          <div class="stat-box">
+            <p>Partner</p>
+            <div class="state-info">
+              <i class="fas fa-user fa-fw"></i>
+              <span>11</span>
+            </div>
+          </div>
+          <div class="stat-box">
+            <p>Bil service denna månad</p>
+            <div class="state-info">
+              <i class="fas fa-user fa-fw"></i>
+              <span>67</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Slut statistik -->
+
+    <section class="offers">
+      <div class="container">
+        <div class="boxes">
+          <div class="box">
+            <img src="imgs/biltvatt.jpg" alt="utvändigtvätt" id="boka"/>
+            <h2>UTVÄNDIGTVÄTT</h2>
+            <p>Utvändig tvätt med avfettning, schamponering, frammattor och torkning</p>
+            <div class="content">
+              <div class="btn">BOKA TID</div>
+              <p>Pris: <span>220 kr</span></p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="imgs/heltvatt.jpg" alt="hältvätt" />
+            <h2>HELTVÄTT</h2>
+            <p>Utvändig tvätt, avfettning, schamponering, OCH invändig med interiörrengöring.</p>
+            <div class="content">
+              <div class="btn">BOKA TID</div>
+              <p>Pris: <span>500 kr</span></p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="imgs/oil.jpg" alt="service" />
+            <h2>BASSERVICE</h2>
+            <p>Motorolja, oljefilter byte, luftfilter byte, nollställning service lampan och stämpel i bokservice.</p>
+            <div class="content">
+              <div class="btn">BOKA TID</div>
+              <p>Pris: <span>1695 kr</span></p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="imgs/Hjulinställning.jpg" alt="hjulinställning" />
+            <h2>HJULINSTÄLLNING</h2>
+            <p>Hjulinställning alla 4 hjul, kontroll av däckprofiler, däckens lufttryck, kontroll av hjullager och protokoll.</p>
+            <div class="content">
+              <div class="btn">BOKA TID</div>
+              <p>Pris: <span>800 kr</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Slut Tjänster -->
+
+    <!-- Start Beskrivning -->
+    <section class="explain">
+      <div class="container">
+        <div class="boxes">
+          <div class="box1">
+            <h3>
+              Sandviken bilverkstad har inlett arbetet mot den nya branschstandarden Godkänd bilverkstad.
+            </h3>
+            <p>
+              Kvalitetssystemet ställer hårda krav på branschen så att den levererar kvalité, professionell och garanterar det som är överenskommit med konsumenten. En Godkänd Bilverkstad följer lagar, förordningar, miljökrav, systematiskt arbetsmiljöarbete och följer alltid Allmänna reklamationsnämndens beslut.
+            </p>
+            <div class="benfits">
+              <i class="fas fa-check"></i>
+              <p>Allt inom bilvård</p>
+            </div>
+            <div class="benfits">
+              <i class="fas fa-check"></i>
+              <p>Bil reparation</p>
+            </div>
+            <div class="benfits">
+              <i class="fas fa-check"></i>
+              <p>Bil service</p>
+            </div>
+          </div>
+          <div class="box2">
+            <img src="imgs/wash2.jpg" alt="biltvätt" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Slut Beskrivning -->
+
+    <!-- Start kontakt -->
+    <section class="contact-us">
+      <!-- <div class="overlay"></div> -->
+      <div class="container">
+        <!-- addresses -->
+        <div class="addresses">
+          <div class="workshop">
+            <div class="text">
+              <i class="fas fa-car fa-2x"></i>
+              <div>
+                <h2 class="main-logo">Sandviken<span>bilvård</span></h2>
+              </div>
+            </div>
+            <div class="contact">
+              <p><i class="fas fa-phone-alt"></i> Tel: 026-000000</p>
+              <p><i class="fas fa-envelope"></i> bilvard@bilvard.com</p>
+              <p><i class="fas fa-globe-europe"></i> www.sandvikenbilvård.se</p>
+            </div>
+          </div>
+          <div class="sm-services">
+            <h2>Tjänster</h2>
+            <p>Bilvård</p>
+            <p>Bil reparation</p>
+            <p>Bil service</p>
+          </div>
+
+          <div class="openhours sm-services">
+            <h2>ÖPPETTIDER</h2>
+            <p><span>Mån - Fre:</span><span>08:00 - 16.00</span></p>
+            <p><span>Lördag:</span> <span>10.00 - 14.00</span></p>
+            <p><span>Söndag:</span><span>Stängt</span></p>
+          </div>
+        </div>
+        <hr />
+        <!-- call us -->
+        <div class="call">
+          <div class="call-us">
+            <h2>Ring oss</h2>
+            <p>026-000000</p>
+          </div>
+          <div class="subscripe">
+            <h2>Prenumerera</h2>
+            <form>
+              <input type="text" placeholder="din e-post" />
+              <a href="#0">Prenumerera</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Us -->
+
+    <!-- Start Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="boxes">
+          <ul class="pages">
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="tjanster.html">Tjänster</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Log In</a></li>
+          </ul>
+          <p>&copy; 2022 By Arshed AL-Hadeethi</p>
+          <ul class="foot-social">
+            <li>
+              <a href="#0"><img src="imgs/icons/facebook.png" alt="facebook"/></a></li>
+            <li><a href="#0"><img src="imgs/icons/twitter.png" alt="twitter"/></a></li>
+            <li><a href="#0"><img src="imgs/icons/instagram.png" alt="instagram"/></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Slut Footer -->
+  </body>
+</html>
